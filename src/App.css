@@ -1,18 +1,30 @@
-/* App Colors
-#993300
-#C6ED2C
-#4B7F52
-#DDC8C4
-#13070C
-#fefff3
- */
+ /*App Colors
+    #4A6369
+    #838469
+    #EADAA0
+    #AB5852
+    #D49C47
+    #ECCCAC
+    #DFDCCC
+    #444E3D
+    #703414
+    #DC743C
+    #993300
+    #C6ED2C
+    #4B7F52
+    #DDC8C4
+    #13070C
+    #fefff3
+    #e8e6da;*/
 
 * {
-  /* background-color: #DDC8C4; */
   box-sizing: border-box;
 }
 
 body {
   margin: 0;
   min-height: 100vh;
+  display: flex;
+  flex-direction: column;
 }
+

@@ -1,0 +1,21 @@
+.mainTitle {
+    background-color: #e8e6da;
+    height: 50vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+    padding: 6rem 4rem;
+    font-size: 2rem;
+    color: #444E3D;
+}
+
+.title {
+    max-width: 30%;
+}
+
+.mainImage {
+    width: 26rem;
+    height: 28rem;
+    z-index: 100;
+}

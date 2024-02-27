@@ -1,4 +1,42 @@
 .logo {
-    max-width: 2.6rem;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+}
+
+.logo:visited {
+    color: #D49C47;
+}
+
+.logoImage {
+    max-width: 1.8rem;
     margin: 0.6rem;
+}
+
+.logoTitle {
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    background-color: #e8e6da;
+}
+
+.navigationList {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    margin-right: 2rem;
+}
+
+.navigationLink {
+    text-decoration: none;
+    margin-right: 2rem;
+    font-size: 1rem;
+}
+
+.navigationLink:visited {
+    color: black;
 }

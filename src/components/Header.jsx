@@ -3,36 +3,47 @@ import icon from "../assets/TennisGO.png";
 import styles from "./Header.module.css";
 
 function Header() {
-  return(
-    <div className="Header">
-      <div className="logo">
-        <Link to='/Home'>
-          <img className={styles.logo} src={icon} alt="" />
-        </Link>
+  return (
+      <div className={styles.header}>
+          <Link className={styles.logo} to="/Home">
+              <img className={styles.logoImage} src={icon} alt="" />
+              <div className={styles.logoTitle}>Tennis Go</div>
+          </Link>
+          <div className={styles.navigationContainer}>
+              <nav className={styles.navigation}>
+                  <ul className={styles.navigationList}>
+                      <li>
+                          <Link className={styles.navigationLink} to="/Home">
+                              Homepage
+                          </Link>
+                      </li>
+                      <li>
+                          <Link className={styles.navigationLink} to="/Players">
+                              Players
+                          </Link>
+                      </li>
+                      <li>
+                          <Link
+                              className={styles.navigationLink}
+                              to="/Tournaments"
+                          >
+                              Tournaments
+                          </Link>
+                      </li>
+                      <li>
+                          <Link className={styles.navigationLink} to="/Lessons">
+                              Lessons
+                          </Link>
+                      </li>
+                      <li>
+                          <Link className={styles.navigationLink} to="/Shop">
+                              Shop
+                          </Link>
+                      </li>
+                  </ul>
+              </nav>
+          </div>
       </div>
-      <div className="title">Tennis Go</div>
-      <div className="navigation-container">
-          <nav className="navigation">
-            <ul>
-              <li>
-                <Link to='/Home'>Homepage</Link>
-              </li>
-              <li>
-                <Link to='/Players'>Players</Link>
-              </li>
-              <li>
-                <Link to='/Tournaments'>Tournaments</Link>
-              </li>
-              <li>
-                <Link to='/Lessons'>Lessons</Link>
-              </li>
-              <li>
-                <Link to='/Shop'>Shop</Link>
-              </li>
-            </ul>
-          </nav>
-      </div>
-    </div>
   );
 }
 

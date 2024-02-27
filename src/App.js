@@ -1,6 +1,6 @@
 import Header from './components/Header';
 import Footer from './components/Footer';
-import Home from './pages/Home';
+import Homepage from './pages/Homepage';
 import Players from './pages/Players';
 import Shop from './pages/Shop';
 import Tournaments from './pages/Tournaments';
@@ -15,7 +15,7 @@ function App() {
       <BrowserRouter>
         <Header />
         <Routes>
-        <Route path="/home" element={<Home />} />
+        <Route path="/home" element={<Homepage />} />
         <Route path="/players" element={<Players />}/>
         <Route path='/tournaments' element={<Tournaments />} />
         <Route path="/lessons" element={<Lessons />}/>

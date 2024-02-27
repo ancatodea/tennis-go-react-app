@@ -1,8 +1,10 @@
+import MainTitle from "../components/MainTitle";
+
 function Shop() {
-  return(
-    <div className="Shop">
-      <h1>Shop now your favorite tennis item</h1>
-    </div>
+  return (
+      <div className="Shop">
+          <MainTitle title="Shop now your favorite tennis item" />
+      </div>
   );
 }
 

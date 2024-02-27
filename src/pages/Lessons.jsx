@@ -1,8 +1,10 @@
-function Lessons() {
-  return(
-    <div className="Lessons">
+import MainTitle from "../components/MainTitle";
 
-    </div>
+function Lessons() {
+  return (
+      <div className="Lessons">
+          <MainTitle title="FIRST CLASS IS FREE!" />
+      </div>
   );
 }
 
