@@ -18,8 +18,13 @@ function Header() {
                           </Link>
                       </li>
                       <li>
-                          <Link className={styles.navigationLink} to="/Players">
-                              Players
+                          <Link className={styles.navigationLink} to="/Wta">
+                              WTA
+                          </Link>
+                      </li>
+                      <li>
+                          <Link className={styles.navigationLink} to="/Atp">
+                              ATP
                           </Link>
                       </li>
                       <li>

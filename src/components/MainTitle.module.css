@@ -1,6 +1,6 @@
 .mainTitle {
     background-color: #e8e6da;
-    height: 50vh;
+    height: 100vh;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -15,7 +15,7 @@
 }
 
 .mainImage {
-    width: 26rem;
-    height: 28rem;
+    width: 28rem;
+    height: 30rem;
     z-index: 100;
 }

@@ -1,0 +1,6 @@
+.aboutLessons {
+    margin: 8rem 2rem;
+    font-size: 1.8rem;
+    display: flex;
+    justify-content: space-around;
+}

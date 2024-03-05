@@ -1,0 +1,21 @@
+.aboutShop {
+    margin: 8rem 2rem;
+}
+
+.shopCollections {
+    display: flex;
+    justify-content: space-around;
+}
+
+h3 {
+    text-align: center;
+}
+
+.collection {
+    width: 30rem;
+    height: 20rem;
+    background-color: blue;
+    text-align: center;
+
+}
+

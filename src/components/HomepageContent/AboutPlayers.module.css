@@ -1,0 +1,31 @@
+img {
+    max-width: 100%;
+}
+
+.playersBar {
+    background-color: #fefff3;
+    opacity: 0.4;
+    width: 100%;
+    height: 8rem;
+    z-index: 3;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    gap: 8rem;
+}
+
+.aboutPlayers {
+    display: flex;
+    flex-direction: column;
+    box-shadow: none;
+    justify-content: flex-start;
+    /* margin: 4rem 0rem; */
+    margin-bottom: 8rem;
+}
+
+.atpButton, .wtaButton {
+    border: none;
+    background-color: #fefff3;
+    color: #444E3D;
+    font-size: 4rem;
+}

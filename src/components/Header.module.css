@@ -20,8 +20,13 @@
 
 .header {
     display: flex;
+    position: sticky;
+    padding-left: 2rem;
+    padding-right: 2rem;
     justify-content: space-between;
     background-color: #e8e6da;
+    box-shadow: 0 4px 8px rgba(0,0,0,.16);
+    z-index: 1000;
 }
 
 .navigationList {
